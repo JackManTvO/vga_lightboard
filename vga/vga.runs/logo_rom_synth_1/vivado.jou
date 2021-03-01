@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Fri Oct  9 16:51:14 2020
+# Process ID: 6020
+# Current directory: D:/Desktop/vga/vga.runs/logo_rom_synth_1
+# Command line: vivado.exe -log logo_rom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source logo_rom.tcl
+# Log file: D:/Desktop/vga/vga.runs/logo_rom_synth_1/logo_rom.vds
+# Journal file: D:/Desktop/vga/vga.runs/logo_rom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source logo_rom.tcl -notrace

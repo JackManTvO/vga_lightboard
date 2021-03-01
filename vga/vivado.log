@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Fri Oct  9 16:47:27 2020
+# Process ID: 17664
+# Current directory: D:/Desktop/vga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15660 D:\Desktop\vga\vga.xpr
+# Log file: D:/Desktop/vga/vivado.log
+# Journal file: D:/Desktop/vga\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Desktop/vga/vga.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 727.152 ; gain = 121.059
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Oct  9 16:50:24 2020] Launched logo_rom_synth_1, synth_1...
+Run output will be captured here:
+logo_rom_synth_1: D:/Desktop/vga/vga.runs/logo_rom_synth_1/runme.log
+synth_1: D:/Desktop/vga/vga.runs/synth_1/runme.log
+[Fri Oct  9 16:50:24 2020] Launched impl_1...
+Run output will be captured here: D:/Desktop/vga/vga.runs/impl_1/runme.log
+reset_run synth_1
+reset_run logo_rom_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Oct  9 16:51:10 2020] Launched logo_rom_synth_1, synth_1...
+Run output will be captured here:
+logo_rom_synth_1: D:/Desktop/vga/vga.runs/logo_rom_synth_1/runme.log
+synth_1: D:/Desktop/vga/vga.runs/synth_1/runme.log
+[Fri Oct  9 16:51:11 2020] Launched impl_1...
+Run output will be captured here: D:/Desktop/vga/vga.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Oct  9 16:57:01 2020...

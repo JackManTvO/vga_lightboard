@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Fri Oct  9 16:52:55 2020
+# Process ID: 2852
+# Current directory: D:/Desktop/vga/vga.runs/synth_1
+# Command line: vivado.exe -log top_vga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_vga.tcl
+# Log file: D:/Desktop/vga/vga.runs/synth_1/top_vga.vds
+# Journal file: D:/Desktop/vga/vga.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_vga.tcl -notrace
